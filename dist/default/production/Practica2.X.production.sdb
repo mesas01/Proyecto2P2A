@@ -1,0 +1,1046 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F46K42 ]
+[d frameptr 16353 ]
+"120 C:\Users\mesas\MPLABXProjects\Practica2.X\mcc_generated_files/adcc.c
+[e E16239 . `uc
+channel_ANA0 0
+channel_ANA1 1
+channel_VSS 59
+channel_Temp 60
+channel_DAC1 61
+channel_FVR_Buffer1 62
+channel_FVR_Buffer2 63
+]
+"79 C:\Users\mesas\MPLABXProjects\Practica2.X\mcc_generated_files/spi1.c
+[e E358 . `uc
+SPI1_DEFAULT 0
+]
+"177 C:\Users\mesas\MPLABXProjects\Practica2.X\main.c
+[e E16563 . `uc
+channel_ANA0 0
+channel_ANA1 1
+channel_VSS 59
+channel_Temp 60
+channel_DAC1 61
+channel_FVR_Buffer1 62
+channel_FVR_Buffer2 63
+]
+"201
+[e E16660 . `uc
+SPI1_DEFAULT 0
+]
+"1 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"74 C:\Users\mesas\MPLABXProjects\Practica2.X\main.c
+[v _AddSignals AddSignals `(s  1 e 2 0 ]
+"79
+[v _SubstractSignals SubstractSignals `(s  1 e 2 0 ]
+"84
+[v _MultiplySignals MultiplySignals `(l  1 e 4 0 ]
+"144
+[v _AbsSignal1 AbsSignal1 `(s  1 e 2 0 ]
+"149
+[v _AbsSignal2 AbsSignal2 `(s  1 e 2 0 ]
+"161
+[v _realizarOperacionesYEnviar realizarOperacionesYEnviar `(v  1 e 1 0 ]
+"176
+[v _leerSegundaSenal leerSegundaSenal `(v  1 e 1 0 ]
+"181
+[v _leerPrimeraSenal leerPrimeraSenal `(v  1 e 1 0 ]
+"186
+[v _sendToUART sendToUART `(v  1 e 1 0 ]
+"198
+[v _main main `(v  1 e 1 0 ]
+"63 C:\Users\mesas\MPLABXProjects\Practica2.X\mcc_generated_files/adcc.c
+[v _ADCC_Initialize ADCC_Initialize `(v  1 e 1 0 ]
+"144
+[v _ADCC_GetSingleConversion ADCC_GetSingleConversion `(us  1 e 2 0 ]
+"306
+[v _ADCC_ISR ADCC_ISR `(v  1 e 1 0 ]
+"315
+[v _ADCC_SetADIInterruptHandler ADCC_SetADIInterruptHandler `(v  1 e 1 0 ]
+"319
+[v _ADCC_DefaultInterruptHandler ADCC_DefaultInterruptHandler `(v  1 e 1 0 ]
+"58 C:\Users\mesas\MPLABXProjects\Practica2.X\mcc_generated_files/fvr.c
+[v _FVR_Initialize FVR_Initialize `(v  1 e 1 0 ]
+"52 C:\Users\mesas\MPLABXProjects\Practica2.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+"58
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
+"50 C:\Users\mesas\MPLABXProjects\Practica2.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"63
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"81
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"55 C:\Users\mesas\MPLABXProjects\Practica2.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"64 C:\Users\mesas\MPLABXProjects\Practica2.X\mcc_generated_files/spi1.c
+[v _SPI1_Initialize SPI1_Initialize `(v  1 e 1 0 ]
+"79
+[v _SPI1_Open SPI1_Open `(a  1 e 1 0 ]
+"99
+[v _SPI1_ExchangeByte SPI1_ExchangeByte `(uc  1 e 1 0 ]
+"61 C:\Users\mesas\MPLABXProjects\Practica2.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+"121
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+"134
+[v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `(v  1 e 1 0 ]
+"138
+[v _TMR0_DefaultInterruptHandler TMR0_DefaultInterruptHandler `(v  1 e 1 0 ]
+"66 C:\Users\mesas\MPLABXProjects\Practica2.X\mcc_generated_files/uart1.c
+[v _UART1_Initialize UART1_Initialize `(v  1 e 1 0 ]
+"145
+[v _UART1_Read UART1_Read `(uc  1 e 1 0 ]
+"170
+[v _UART1_Write UART1_Write `(v  1 e 1 0 ]
+"193
+[v _UART1_DefaultFramingErrorHandler UART1_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+"195
+[v _UART1_DefaultOverrunErrorHandler UART1_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+"197
+[v _UART1_DefaultErrorHandler UART1_DefaultErrorHandler `(v  1 e 1 0 ]
+"200
+[v _UART1_SetFramingErrorHandler UART1_SetFramingErrorHandler `(v  1 e 1 0 ]
+"204
+[v _UART1_SetOverrunErrorHandler UART1_SetOverrunErrorHandler `(v  1 e 1 0 ]
+"208
+[v _UART1_SetErrorHandler UART1_SetErrorHandler `(v  1 e 1 0 ]
+[s S68 . 1 `uc 1 INT0IE 1 0 :1:0 
+`uc 1 ZCDIE 1 0 :1:1 
+`uc 1 ADIE 1 0 :1:2 
+`uc 1 ADTIE 1 0 :1:3 
+`uc 1 C1IE 1 0 :1:4 
+`uc 1 SMT1IE 1 0 :1:5 
+`uc 1 SMT1PRAIE 1 0 :1:6 
+`uc 1 SMT1PWAIE 1 0 :1:7 
+]
+"3409 C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18F-K_DFP/1.11.281/xc8\pic\include\proc\pic18f46k42.h
+[u S77 . 1 `S68 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES77  1 e 1 @14737 ]
+[s S1033 . 1 `uc 1 I2C1TXIE 1 0 :1:0 
+`uc 1 I2C1IE 1 0 :1:1 
+`uc 1 I2C1EIE 1 0 :1:2 
+`uc 1 U1RXIE 1 0 :1:3 
+`uc 1 U1TXIE 1 0 :1:4 
+`uc 1 U1EIE 1 0 :1:5 
+`uc 1 U1IE 1 0 :1:6 
+`uc 1 TMR0IE 1 0 :1:7 
+]
+"3533
+[u S1042 . 1 `S1033 1 . 1 0 ]
+[v _PIE3bits PIE3bits `VES1042  1 e 1 @14739 ]
+[s S47 . 1 `uc 1 INT0IF 1 0 :1:0 
+`uc 1 ZCDIF 1 0 :1:1 
+`uc 1 ADIF 1 0 :1:2 
+`uc 1 ADTIF 1 0 :1:3 
+`uc 1 C1IF 1 0 :1:4 
+`uc 1 SMT1IF 1 0 :1:5 
+`uc 1 SMT1PRAIF 1 0 :1:6 
+`uc 1 SMT1PWAIF 1 0 :1:7 
+]
+"3974
+[u S56 . 1 `S47 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES56  1 e 1 @14753 ]
+[s S607 . 1 `uc 1 DMA1SCNTIF 1 0 :1:0 
+`uc 1 DMA1DCNTIF 1 0 :1:1 
+`uc 1 DMA1ORIF 1 0 :1:2 
+`uc 1 DMA1AIF 1 0 :1:3 
+`uc 1 SPI1RXIF 1 0 :1:4 
+`uc 1 SPI1TXIF 1 0 :1:5 
+`uc 1 SPI1IF 1 0 :1:6 
+`uc 1 I2C1RXIF 1 0 :1:7 
+]
+"4036
+[u S616 . 1 `S607 1 . 1 0 ]
+[v _PIR2bits PIR2bits `VES616  1 e 1 @14754 ]
+[s S827 . 1 `uc 1 I2C1TXIF 1 0 :1:0 
+`uc 1 I2C1IF 1 0 :1:1 
+`uc 1 I2C1EIF 1 0 :1:2 
+`uc 1 U1RXIF 1 0 :1:3 
+`uc 1 U1TXIF 1 0 :1:4 
+`uc 1 U1EIF 1 0 :1:5 
+`uc 1 U1IF 1 0 :1:6 
+`uc 1 TMR0IF 1 0 :1:7 
+]
+"4098
+[u S836 . 1 `S827 1 . 1 0 ]
+[v _PIR3bits PIR3bits `VES836  1 e 1 @14755 ]
+"4460
+[v _PMD0 PMD0 `VEuc  1 e 1 @14784 ]
+"4522
+[v _PMD1 PMD1 `VEuc  1 e 1 @14785 ]
+"4584
+[v _PMD2 PMD2 `VEuc  1 e 1 @14786 ]
+"4629
+[v _PMD3 PMD3 `VEuc  1 e 1 @14787 ]
+"4691
+[v _PMD4 PMD4 `VEuc  1 e 1 @14788 ]
+"4724
+[v _PMD5 PMD5 `VEuc  1 e 1 @14789 ]
+"4769
+[v _PMD6 PMD6 `VEuc  1 e 1 @14790 ]
+"4819
+[v _PMD7 PMD7 `VEuc  1 e 1 @14791 ]
+"4958
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @14809 ]
+"5098
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @14811 ]
+"5250
+[v _OSCEN OSCEN `VEuc  1 e 1 @14813 ]
+"5301
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @14814 ]
+"5405
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @14815 ]
+"7217
+[v _RC3PPS RC3PPS `VEuc  1 e 1 @14867 ]
+"7317
+[v _RC5PPS RC5PPS `VEuc  1 e 1 @14869 ]
+"7367
+[v _RC6PPS RC6PPS `VEuc  1 e 1 @14870 ]
+"8017
+[v _ANSELA ANSELA `VEuc  1 e 1 @14912 ]
+"8079
+[v _WPUA WPUA `VEuc  1 e 1 @14913 ]
+"8141
+[v _ODCONA ODCONA `VEuc  1 e 1 @14914 ]
+"8203
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @14915 ]
+"8265
+[v _INLVLA INLVLA `VEuc  1 e 1 @14916 ]
+"8637
+[v _ANSELB ANSELB `VEuc  1 e 1 @14928 ]
+"8699
+[v _WPUB WPUB `VEuc  1 e 1 @14929 ]
+"8761
+[v _ODCONB ODCONB `VEuc  1 e 1 @14930 ]
+"8823
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @14931 ]
+"8885
+[v _INLVLB INLVLB `VEuc  1 e 1 @14932 ]
+"9257
+[v _RB1I2C RB1I2C `VEuc  1 e 1 @14938 ]
+"9365
+[v _RB2I2C RB2I2C `VEuc  1 e 1 @14939 ]
+"9473
+[v _ANSELC ANSELC `VEuc  1 e 1 @14944 ]
+"9535
+[v _WPUC WPUC `VEuc  1 e 1 @14945 ]
+"9597
+[v _ODCONC ODCONC `VEuc  1 e 1 @14946 ]
+"9659
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @14947 ]
+"9721
+[v _INLVLC INLVLC `VEuc  1 e 1 @14948 ]
+"10093
+[v _RC3I2C RC3I2C `VEuc  1 e 1 @14954 ]
+"10201
+[v _RC4I2C RC4I2C `VEuc  1 e 1 @14955 ]
+"10309
+[v _ANSELD ANSELD `VEuc  1 e 1 @14960 ]
+"10371
+[v _WPUD WPUD `VEuc  1 e 1 @14961 ]
+"10433
+[v _ODCOND ODCOND `VEuc  1 e 1 @14962 ]
+"10495
+[v _SLRCOND SLRCOND `VEuc  1 e 1 @14963 ]
+"10557
+[v _INLVLD INLVLD `VEuc  1 e 1 @14964 ]
+"10743
+[v _RD0I2C RD0I2C `VEuc  1 e 1 @14970 ]
+"10851
+[v _RD1I2C RD1I2C `VEuc  1 e 1 @14971 ]
+"10959
+[v _ANSELE ANSELE `VEuc  1 e 1 @14976 ]
+"10991
+[v _WPUE WPUE `VEuc  1 e 1 @14977 ]
+"11029
+[v _ODCONE ODCONE `VEuc  1 e 1 @14978 ]
+"11061
+[v _SLRCONE SLRCONE `VEuc  1 e 1 @14979 ]
+"11093
+[v _INLVLE INLVLE `VEuc  1 e 1 @14980 ]
+"11934
+[v _SPI1SCKPPS SPI1SCKPPS `VEuc  1 e 1 @15070 ]
+"11954
+[v _SPI1SDIPPS SPI1SDIPPS `VEuc  1 e 1 @15071 ]
+"12074
+[v _U1RXPPS U1RXPPS `VEuc  1 e 1 @15077 ]
+"22648
+[v _SPI1RXB SPI1RXB `VEuc  1 e 1 @15632 ]
+"22718
+[v _SPI1TXB SPI1TXB `VEuc  1 e 1 @15633 ]
+"22795
+[v _SPI1TCNTL SPI1TCNTL `VEuc  1 e 1 @15634 ]
+"22835
+[v _SPI1CON0 SPI1CON0 `VEuc  1 e 1 @15636 ]
+[s S577 . 1 `uc 1 BMODE 1 0 :1:0 
+`uc 1 MST 1 0 :1:1 
+`uc 1 LSBF 1 0 :1:2 
+`uc 1 . 1 0 :4:3 
+`uc 1 EN 1 0 :1:7 
+]
+"22856
+[s S583 . 1 `uc 1 SPI1BMODE 1 0 :1:0 
+`uc 1 SPI1MST 1 0 :1:1 
+`uc 1 SPI1LSBF 1 0 :1:2 
+`uc 1 . 1 0 :4:3 
+`uc 1 SPI1SPIEN 1 0 :1:7 
+]
+[u S589 . 1 `S577 1 . 1 0 `S583 1 . 1 0 ]
+[v _SPI1CON0bits SPI1CON0bits `VES589  1 e 1 @15636 ]
+"22901
+[v _SPI1CON1 SPI1CON1 `VEuc  1 e 1 @15637 ]
+"23003
+[v _SPI1CON2 SPI1CON2 `VEuc  1 e 1 @15638 ]
+"23203
+[v _SPI1BAUD SPI1BAUD `VEuc  1 e 1 @15641 ]
+"23457
+[v _SPI1CLK SPI1CLK `VEuc  1 e 1 @15644 ]
+"26521
+[v _U1RXB U1RXB `VEuc  1 e 1 @15848 ]
+"26579
+[v _U1TXB U1TXB `VEuc  1 e 1 @15850 ]
+"26644
+[v _U1P1L U1P1L `VEuc  1 e 1 @15852 ]
+"26664
+[v _U1P1H U1P1H `VEuc  1 e 1 @15853 ]
+"26691
+[v _U1P2L U1P2L `VEuc  1 e 1 @15854 ]
+"26711
+[v _U1P2H U1P2H `VEuc  1 e 1 @15855 ]
+"26738
+[v _U1P3L U1P3L `VEuc  1 e 1 @15856 ]
+"26758
+[v _U1P3H U1P3H `VEuc  1 e 1 @15857 ]
+"26778
+[v _U1CON0 U1CON0 `VEuc  1 e 1 @15858 ]
+[s S848 . 1 `uc 1 MODE0 1 0 :1:0 
+`uc 1 MODE1 1 0 :1:1 
+`uc 1 MODE2 1 0 :1:2 
+`uc 1 MODE3 1 0 :1:3 
+]
+"26811
+[s S853 . 1 `uc 1 U1MODE 1 0 :4:0 
+`uc 1 U1RXEN 1 0 :1:4 
+`uc 1 U1TXEN 1 0 :1:5 
+`uc 1 U1ABDEN 1 0 :1:6 
+`uc 1 U1BRGS 1 0 :1:7 
+]
+[s S859 . 1 `uc 1 U1MODE0 1 0 :1:0 
+`uc 1 U1MODE1 1 0 :1:1 
+`uc 1 U1MODE2 1 0 :1:2 
+`uc 1 U1MODE3 1 0 :1:3 
+]
+[s S864 . 1 `uc 1 MODE 1 0 :4:0 
+`uc 1 RXEN 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 ABDEN 1 0 :1:6 
+`uc 1 BRGS 1 0 :1:7 
+]
+[u S870 . 1 `S848 1 . 1 0 `S853 1 . 1 0 `S859 1 . 1 0 `S864 1 . 1 0 ]
+[v _U1CON0bits U1CON0bits `VES870  1 e 1 @15858 ]
+"26906
+[v _U1CON1 U1CON1 `VEuc  1 e 1 @15859 ]
+"26986
+[v _U1CON2 U1CON2 `VEuc  1 e 1 @15860 ]
+"27135
+[v _U1BRGL U1BRGL `VEuc  1 e 1 @15861 ]
+"27155
+[v _U1BRGH U1BRGH `VEuc  1 e 1 @15862 ]
+"27175
+[v _U1FIFO U1FIFO `VEuc  1 e 1 @15863 ]
+"27305
+[v _U1UIR U1UIR `VEuc  1 e 1 @15864 ]
+"27361
+[v _U1ERRIR U1ERRIR `VEuc  1 e 1 @15865 ]
+[s S898 . 1 `uc 1 TXCIF 1 0 :1:0 
+`uc 1 RXFOIF 1 0 :1:1 
+`uc 1 RXBKIF 1 0 :1:2 
+`uc 1 FERIF 1 0 :1:3 
+`uc 1 CERIF 1 0 :1:4 
+`uc 1 ABDOVF 1 0 :1:5 
+`uc 1 PERIF 1 0 :1:6 
+`uc 1 TXMTIF 1 0 :1:7 
+]
+"27388
+[s S907 . 1 `uc 1 U1TXCIF 1 0 :1:0 
+`uc 1 U1RXFOIF 1 0 :1:1 
+`uc 1 U1RXBKIF 1 0 :1:2 
+`uc 1 U1FERIF 1 0 :1:3 
+`uc 1 U1CERIF 1 0 :1:4 
+`uc 1 U1ABDOVF 1 0 :1:5 
+`uc 1 U1PERIF 1 0 :1:6 
+`uc 1 U1TXMTIF 1 0 :1:7 
+]
+[u S916 . 1 `S898 1 . 1 0 `S907 1 . 1 0 ]
+[v _U1ERRIRbits U1ERRIRbits `VES916  1 e 1 @15865 ]
+"27473
+[v _U1ERRIE U1ERRIE `VEuc  1 e 1 @15866 ]
+"28252
+[v _FVRCON FVRCON `VEuc  1 e 1 @16065 ]
+[s S728 . 1 `uc 1 ADFVR 1 0 :2:0 
+`uc 1 CDAFVR 1 0 :2:2 
+`uc 1 TSRNG 1 0 :1:4 
+`uc 1 TSEN 1 0 :1:5 
+`uc 1 RDY 1 0 :1:6 
+`uc 1 EN 1 0 :1:7 
+]
+"28276
+[s S735 . 1 `uc 1 ADFVR0 1 0 :1:0 
+`uc 1 ADFVR1 1 0 :1:1 
+`uc 1 CDAFVR0 1 0 :1:2 
+`uc 1 CDAFVR1 1 0 :1:3 
+`uc 1 . 1 0 :2:4 
+`uc 1 FVRRDY 1 0 :1:6 
+`uc 1 FVREN 1 0 :1:7 
+]
+[u S743 . 1 `S728 1 . 1 0 `S735 1 . 1 0 ]
+[v _FVRCONbits FVRCONbits `VES743  1 e 1 @16065 ]
+"28631
+[v _ADLTHL ADLTHL `VEuc  1 e 1 @16094 ]
+"28759
+[v _ADLTHH ADLTHH `VEuc  1 e 1 @16095 ]
+"28894
+[v _ADUTHL ADUTHL `VEuc  1 e 1 @16096 ]
+"29022
+[v _ADUTHH ADUTHH `VEuc  1 e 1 @16097 ]
+"29157
+[v _ADERRL ADERRL `VEuc  1 e 1 @16098 ]
+"29285
+[v _ADERRH ADERRH `VEuc  1 e 1 @16099 ]
+"29420
+[v _ADSTPTL ADSTPTL `VEuc  1 e 1 @16100 ]
+"29548
+[v _ADSTPTH ADSTPTH `VEuc  1 e 1 @16101 ]
+"29683
+[v _ADFLTRL ADFLTRL `VEuc  1 e 1 @16102 ]
+"29811
+[v _ADFLTRH ADFLTRH `VEuc  1 e 1 @16103 ]
+"29948
+[v _ADACCL ADACCL `VEuc  1 e 1 @16104 ]
+"30076
+[v _ADACCH ADACCH `VEuc  1 e 1 @16105 ]
+"30204
+[v _ADACCU ADACCU `VEuc  1 e 1 @16106 ]
+"30332
+[v _ADCNT ADCNT `VEuc  1 e 1 @16107 ]
+"30460
+[v _ADRPT ADRPT `VEuc  1 e 1 @16108 ]
+"30595
+[v _ADPREVL ADPREVL `VEuc  1 e 1 @16109 ]
+"30723
+[v _ADPREVH ADPREVH `VEuc  1 e 1 @16110 ]
+"30858
+[v _ADRESL ADRESL `VEuc  1 e 1 @16111 ]
+"30986
+[v _ADRESH ADRESH `VEuc  1 e 1 @16112 ]
+"31106
+[v _ADPCH ADPCH `VEuc  1 e 1 @16113 ]
+"31217
+[v _ADACQL ADACQL `VEuc  1 e 1 @16115 ]
+"31345
+[v _ADACQH ADACQH `VEuc  1 e 1 @16116 ]
+"31437
+[v _ADCAP ADCAP `VEuc  1 e 1 @16117 ]
+"31536
+[v _ADPREL ADPREL `VEuc  1 e 1 @16118 ]
+"31664
+[v _ADPREH ADPREH `VEuc  1 e 1 @16119 ]
+"31756
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @16120 ]
+[s S107 . 1 `uc 1 GO 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 FM 1 0 :2:2 
+`uc 1 CS 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CONT 1 0 :1:6 
+`uc 1 ON 1 0 :1:7 
+]
+"31794
+[s S115 . 1 `uc 1 ADGO 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFM 1 0 :2:2 
+`uc 1 ADCS 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 ADCONT 1 0 :1:6 
+`uc 1 ADON 1 0 :1:7 
+]
+[s S123 . 1 `uc 1 DONE 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 FM0 1 0 :1:2 
+]
+[s S127 . 1 `uc 1 GO_NOT_DONE 1 0 :1:0 
+]
+[s S129 . 1 `uc 1 GO_nDONE 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFM0 1 0 :1:2 
+]
+[u S133 . 1 `S107 1 . 1 0 `S115 1 . 1 0 `S123 1 . 1 0 `S127 1 . 1 0 `S129 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES133  1 e 1 @16120 ]
+"31874
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @16121 ]
+[s S362 . 1 `uc 1 DSEN 1 0 :1:0 
+`uc 1 . 1 0 :4:1 
+`uc 1 GPOL 1 0 :1:5 
+`uc 1 IPEN 1 0 :1:6 
+`uc 1 PPOL 1 0 :1:7 
+]
+"31895
+[s S368 . 1 `uc 1 ADDSEN 1 0 :1:0 
+`uc 1 . 1 0 :4:1 
+`uc 1 ADGPOL 1 0 :1:5 
+`uc 1 ADIPEN 1 0 :1:6 
+`uc 1 ADPPOL 1 0 :1:7 
+]
+[u S374 . 1 `S362 1 . 1 0 `S368 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES374  1 e 1 @16121 ]
+"31940
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @16122 ]
+[s S223 . 1 `uc 1 MODE 1 0 :3:0 
+`uc 1 ACLR 1 0 :1:3 
+`uc 1 CRS 1 0 :3:4 
+`uc 1 PSIS 1 0 :1:7 
+]
+"31988
+[s S228 . 1 `uc 1 ADMD0 1 0 :1:0 
+`uc 1 ADMD1 1 0 :1:1 
+`uc 1 ADMD2 1 0 :1:2 
+`uc 1 ADACLR 1 0 :1:3 
+`uc 1 ADCRS0 1 0 :1:4 
+`uc 1 ADCRS1 1 0 :1:5 
+`uc 1 ADCRS2 1 0 :1:6 
+`uc 1 ADPSIS 1 0 :1:7 
+]
+[s S237 . 1 `uc 1 ADMD 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADCRS 1 0 :3:4 
+]
+[s S241 . 1 `uc 1 MODE0 1 0 :1:0 
+`uc 1 MODE1 1 0 :1:1 
+`uc 1 MODE2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 CRS0 1 0 :1:4 
+`uc 1 CRS1 1 0 :1:5 
+`uc 1 CRS2 1 0 :1:6 
+]
+[s S249 . 1 `uc 1 MD 1 0 :3:0 
+]
+[s S251 . 1 `uc 1 MD0 1 0 :1:0 
+`uc 1 MD1 1 0 :1:1 
+`uc 1 MD2 1 0 :1:2 
+]
+[s S255 . 1 `uc 1 ADMODE 1 0 :3:0 
+]
+[u S257 . 1 `S223 1 . 1 0 `S228 1 . 1 0 `S237 1 . 1 0 `S241 1 . 1 0 `S249 1 . 1 0 `S251 1 . 1 0 `S255 1 . 1 0 ]
+[v _ADCON2bits ADCON2bits `VES257  1 e 1 @16122 ]
+"32118
+[v _ADCON3 ADCON3 `VEuc  1 e 1 @16123 ]
+[s S168 . 1 `uc 1 TMD 1 0 :3:0 
+`uc 1 SOI 1 0 :1:3 
+`uc 1 CALC 1 0 :3:4 
+]
+"32153
+[s S172 . 1 `uc 1 ADTMD0 1 0 :1:0 
+`uc 1 ADTMD1 1 0 :1:1 
+`uc 1 ADTMD2 1 0 :1:2 
+`uc 1 ADSOI 1 0 :1:3 
+`uc 1 ADCALC0 1 0 :1:4 
+`uc 1 ADCALC1 1 0 :1:5 
+`uc 1 ADCALC2 1 0 :1:6 
+]
+[s S180 . 1 `uc 1 ADTMD 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADCALC 1 0 :3:4 
+]
+[s S184 . 1 `uc 1 TMD0 1 0 :1:0 
+`uc 1 TMD1 1 0 :1:1 
+`uc 1 TMD2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 CALC0 1 0 :1:4 
+`uc 1 CALC1 1 0 :1:5 
+`uc 1 CALC2 1 0 :1:6 
+]
+[u S192 . 1 `S168 1 . 1 0 `S172 1 . 1 0 `S180 1 . 1 0 `S184 1 . 1 0 ]
+[v _ADCON3bits ADCON3bits `VES192  1 e 1 @16123 ]
+"32248
+[v _ADSTAT ADSTAT `VEuc  1 e 1 @16124 ]
+[s S302 . 1 `uc 1 STAT 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 MATH 1 0 :1:4 
+`uc 1 LTHR 1 0 :1:5 
+`uc 1 UTHR 1 0 :1:6 
+`uc 1 OV 1 0 :1:7 
+]
+"32283
+[s S309 . 1 `uc 1 ADSTAT0 1 0 :1:0 
+`uc 1 ADSTAT1 1 0 :1:1 
+`uc 1 ADSTAT2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADMATH 1 0 :1:4 
+`uc 1 ADLTHR 1 0 :1:5 
+`uc 1 ADUTHR 1 0 :1:6 
+`uc 1 ADAOV 1 0 :1:7 
+]
+[s S318 . 1 `uc 1 ADSTAT 1 0 :3:0 
+`uc 1 . 1 0 :4:3 
+`uc 1 ADOV 1 0 :1:7 
+]
+[s S322 . 1 `uc 1 STAT0 1 0 :1:0 
+`uc 1 STAT1 1 0 :1:1 
+`uc 1 STAT2 1 0 :1:2 
+]
+[u S326 . 1 `S302 1 . 1 0 `S309 1 . 1 0 `S318 1 . 1 0 `S322 1 . 1 0 ]
+[v _ADSTATbits ADSTATbits `VES326  1 e 1 @16124 ]
+"32373
+[v _ADREF ADREF `VEuc  1 e 1 @16125 ]
+"32455
+[v _ADACT ADACT `VEuc  1 e 1 @16126 ]
+"32547
+[v _ADCLK ADCLK `VEuc  1 e 1 @16127 ]
+"45934
+[v _TMR0L TMR0L `VEuc  1 e 1 @16310 ]
+"46072
+[v _TMR0H TMR0H `VEuc  1 e 1 @16311 ]
+"46326
+[v _T0CON0 T0CON0 `VEuc  1 e 1 @16312 ]
+[s S1156 . 1 `uc 1 OUTPS 1 0 :4:0 
+`uc 1 MD16 1 0 :1:4 
+`uc 1 OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 EN 1 0 :1:7 
+]
+"46360
+[s S1162 . 1 `uc 1 T0OUTPS 1 0 :4:0 
+`uc 1 T0MD16 1 0 :1:4 
+`uc 1 T0OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 T0EN 1 0 :1:7 
+]
+"46360
+[s S1168 . 1 `uc 1 OUTPS0 1 0 :1:0 
+`uc 1 OUTPS1 1 0 :1:1 
+`uc 1 OUTPS2 1 0 :1:2 
+`uc 1 OUTPS3 1 0 :1:3 
+`uc 1 T016BIT 1 0 :1:4 
+]
+"46360
+[s S1174 . 1 `uc 1 T0OUTPS0 1 0 :1:0 
+`uc 1 T0OUTPS1 1 0 :1:1 
+`uc 1 T0OUTPS2 1 0 :1:2 
+`uc 1 T0OUTPS3 1 0 :1:3 
+]
+"46360
+[u S1179 . 1 `S1156 1 . 1 0 `S1162 1 . 1 0 `S1168 1 . 1 0 `S1174 1 . 1 0 ]
+"46360
+"46360
+[v _T0CON0bits T0CON0bits `VES1179  1 e 1 @16312 ]
+"46450
+[v _T0CON1 T0CON1 `VEuc  1 e 1 @16313 ]
+"46592
+[v _LATA LATA `VEuc  1 e 1 @16314 ]
+"46704
+[v _LATB LATB `VEuc  1 e 1 @16315 ]
+[s S1287 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"46731
+[s S1296 . 1 `uc 1 LB0 1 0 :1:0 
+`uc 1 LB1 1 0 :1:1 
+`uc 1 LB2 1 0 :1:2 
+`uc 1 LB3 1 0 :1:3 
+`uc 1 LB4 1 0 :1:4 
+`uc 1 LB5 1 0 :1:5 
+`uc 1 LB6 1 0 :1:6 
+`uc 1 LB7 1 0 :1:7 
+]
+"46731
+[u S1305 . 1 `S1287 1 . 1 0 `S1296 1 . 1 0 ]
+"46731
+"46731
+[v _LATBbits LATBbits `VES1305  1 e 1 @16315 ]
+"46816
+[v _LATC LATC `VEuc  1 e 1 @16316 ]
+"46928
+[v _LATD LATD `VEuc  1 e 1 @16317 ]
+"47040
+[v _LATE LATE `VEuc  1 e 1 @16318 ]
+[s S1267 . 1 `uc 1 LATE0 1 0 :1:0 
+`uc 1 LATE1 1 0 :1:1 
+`uc 1 LATE2 1 0 :1:2 
+]
+"47057
+[s S1271 . 1 `uc 1 LE0 1 0 :1:0 
+`uc 1 LE1 1 0 :1:1 
+`uc 1 LE2 1 0 :1:2 
+]
+"47057
+[u S1275 . 1 `S1267 1 . 1 0 `S1271 1 . 1 0 ]
+"47057
+"47057
+[v _LATEbits LATEbits `VES1275  1 e 1 @16318 ]
+"47092
+[v _TRISA TRISA `VEuc  1 e 1 @16322 ]
+"47154
+[v _TRISB TRISB `VEuc  1 e 1 @16323 ]
+"47216
+[v _TRISC TRISC `VEuc  1 e 1 @16324 ]
+[s S554 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"47233
+[u S563 . 1 `S554 1 . 1 0 ]
+"47233
+"47233
+[v _TRISCbits TRISCbits `VES563  1 e 1 @16324 ]
+"47278
+[v _TRISD TRISD `VEuc  1 e 1 @16325 ]
+"47340
+[v _TRISE TRISE `VEuc  1 e 1 @16326 ]
+[s S1007 . 1 `uc 1 INT0EDG 1 0 :1:0 
+`uc 1 INT1EDG 1 0 :1:1 
+`uc 1 INT2EDG 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 IPEN 1 0 :1:5 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"47678
+[s S1015 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 GIEH 1 0 :1:7 
+]
+"47678
+[u S1018 . 1 `S1007 1 . 1 0 `S1015 1 . 1 0 ]
+"47678
+"47678
+[v _INTCON0bits INTCON0bits `VES1018  1 e 1 @16338 ]
+"48381
+[v _WREG WREG `VEuc  1 e 1 @16360 ]
+"48765
+[v _PRODL PRODL `VEuc  1 e 1 @16371 ]
+"48785
+[v _PRODH PRODH `VEuc  1 e 1 @16372 ]
+"55656
+[v _PLLR PLLR `VEb  1 e 0 @118496 ]
+"51 C:\Users\mesas\MPLABXProjects\Practica2.X\main.c
+[v _signal_DC_1 signal_DC_1 `s  1 e 2 0 ]
+"52
+[v _signal_DC_2 signal_DC_2 `s  1 e 2 0 ]
+"53
+[v _signal_No_DC_1 signal_No_DC_1 `us  1 e 2 0 ]
+"54
+[v _signal_No_DC_2 signal_No_DC_2 `us  1 e 2 0 ]
+"57
+[v _sum sum `s  1 e 2 0 ]
+"58
+[v _substract substract `s  1 e 2 0 ]
+"59
+[v _absValue1 absValue1 `s  1 e 2 0 ]
+"60
+[v _absValue2 absValue2 `s  1 e 2 0 ]
+"61
+[v _multiply multiply `l  1 e 4 0 ]
+"62
+[v _result result `s  1 e 2 0 ]
+"63
+[v _resulOperacion resulOperacion `s  1 e 2 0 ]
+"66
+[v _DAC_SPI DAC_SPI `us  1 e 2 0 ]
+"67
+[v _DAC_SPI_High DAC_SPI_High `uc  1 e 1 0 ]
+"68
+[v _DAC_SPI_Low DAC_SPI_Low `uc  1 e 1 0 ]
+"69
+[v _selector selector `uc  1 e 1 0 ]
+"71
+[v _char_hexa char_hexa `[16]uc  1 s 16 char_hexa ]
+"57 C:\Users\mesas\MPLABXProjects\Practica2.X\mcc_generated_files/adcc.c
+[v _ADCC_ADI_InterruptHandler ADCC_ADI_InterruptHandler `*.37(v  1 e 2 0 ]
+[s S543 . 5 `uc 1 con0 1 0 `uc 1 con1 1 1 `uc 1 con2 1 2 `uc 1 baud 1 3 `uc 1 operation 1 4 ]
+"60 C:\Users\mesas\MPLABXProjects\Practica2.X\mcc_generated_files/spi1.c
+[v _spi1_configuration spi1_configuration `C[1]S543  1 s 5 spi1_configuration ]
+"59 C:\Users\mesas\MPLABXProjects\Practica2.X\mcc_generated_files/tmr0.c
+[v _TMR0_InterruptHandler TMR0_InterruptHandler `*.37(v  1 e 2 0 ]
+[s S771 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"53 C:\Users\mesas\MPLABXProjects\Practica2.X\mcc_generated_files/uart1.c
+[u S776 . 1 `S771 1 . 1 0 `uc 1 status 1 0 ]
+[v _uart1RxLastError uart1RxLastError `VES776  1 s 1 uart1RxLastError ]
+"58
+[v _UART1_FramingErrorHandler UART1_FramingErrorHandler `*.37(v  1 e 2 0 ]
+"59
+[v _UART1_OverrunErrorHandler UART1_OverrunErrorHandler `*.37(v  1 e 2 0 ]
+"60
+[v _UART1_ErrorHandler UART1_ErrorHandler `*.37(v  1 e 2 0 ]
+"198 C:\Users\mesas\MPLABXProjects\Practica2.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"274
+} 0
+"186
+[v _sendToUART sendToUART `(v  1 e 1 0 ]
+{
+"189
+[v sendToUART@mostrarAlto mostrarAlto `uc  1 a 1 5 ]
+"188
+[v sendToUART@mostrarBajo mostrarBajo `uc  1 a 1 4 ]
+"196
+} 0
+"170 C:\Users\mesas\MPLABXProjects\Practica2.X\mcc_generated_files/uart1.c
+[v _UART1_Write UART1_Write `(v  1 e 1 0 ]
+{
+[v UART1_Write@txData txData `uc  1 a 1 wreg ]
+[v UART1_Write@txData txData `uc  1 a 1 wreg ]
+[v UART1_Write@txData txData `uc  1 a 1 2 ]
+"177
+} 0
+"161 C:\Users\mesas\MPLABXProjects\Practica2.X\main.c
+[v _realizarOperacionesYEnviar realizarOperacionesYEnviar `(v  1 e 1 0 ]
+{
+"173
+} 0
+"79
+[v _SubstractSignals SubstractSignals `(s  1 e 2 0 ]
+{
+"82
+} 0
+"84
+[v _MultiplySignals MultiplySignals `(l  1 e 4 0 ]
+{
+"103
+[v MultiplySignals@resultParts resultParts `[4]uc  1 a 4 34 ]
+"134
+[v MultiplySignals@combinedResult combinedResult `l  1 a 4 26 ]
+"101
+[v MultiplySignals@num2High num2High `uc  1 a 1 33 ]
+"100
+[v MultiplySignals@num2Low num2Low `uc  1 a 1 32 ]
+"99
+[v MultiplySignals@num1High num1High `uc  1 a 1 31 ]
+"98
+[v MultiplySignals@num1Low num1Low `uc  1 a 1 30 ]
+"142
+} 0
+"74
+[v _AddSignals AddSignals `(s  1 e 2 0 ]
+{
+"77
+} 0
+"149
+[v _AbsSignal2 AbsSignal2 `(s  1 e 2 0 ]
+{
+"152
+} 0
+"144
+[v _AbsSignal1 AbsSignal1 `(s  1 e 2 0 ]
+{
+"147
+} 0
+"1 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+{
+[v abs@a a `i  1 p 2 2 ]
+"4
+} 0
+"176 C:\Users\mesas\MPLABXProjects\Practica2.X\main.c
+[v _leerSegundaSenal leerSegundaSenal `(v  1 e 1 0 ]
+{
+"179
+} 0
+"181
+[v _leerPrimeraSenal leerPrimeraSenal `(v  1 e 1 0 ]
+{
+"184
+} 0
+"144 C:\Users\mesas\MPLABXProjects\Practica2.X\mcc_generated_files/adcc.c
+[v _ADCC_GetSingleConversion ADCC_GetSingleConversion `(us  1 e 2 0 ]
+{
+[v ADCC_GetSingleConversion@channel channel `E16239  1 a 1 wreg ]
+[v ADCC_GetSingleConversion@channel channel `E16239  1 a 1 wreg ]
+"147
+[v ADCC_GetSingleConversion@channel channel `E16239  1 a 1 6 ]
+"167
+} 0
+"145 C:\Users\mesas\MPLABXProjects\Practica2.X\mcc_generated_files/uart1.c
+[v _UART1_Read UART1_Read `(uc  1 e 1 0 ]
+{
+"168
+} 0
+"195
+[v _UART1_DefaultOverrunErrorHandler UART1_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+{
+} 0
+"193
+[v _UART1_DefaultFramingErrorHandler UART1_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+{
+} 0
+"197
+[v _UART1_DefaultErrorHandler UART1_DefaultErrorHandler `(v  1 e 1 0 ]
+{
+"198
+} 0
+"50 C:\Users\mesas\MPLABXProjects\Practica2.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"61
+} 0
+"66 C:\Users\mesas\MPLABXProjects\Practica2.X\mcc_generated_files/uart1.c
+[v _UART1_Initialize UART1_Initialize `(v  1 e 1 0 ]
+{
+"124
+} 0
+"204
+[v _UART1_SetOverrunErrorHandler UART1_SetOverrunErrorHandler `(v  1 e 1 0 ]
+{
+[v UART1_SetOverrunErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 2 ]
+"206
+} 0
+"200
+[v _UART1_SetFramingErrorHandler UART1_SetFramingErrorHandler `(v  1 e 1 0 ]
+{
+[v UART1_SetFramingErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 2 ]
+"202
+} 0
+"208
+[v _UART1_SetErrorHandler UART1_SetErrorHandler `(v  1 e 1 0 ]
+{
+[v UART1_SetErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 2 ]
+"210
+} 0
+"61 C:\Users\mesas\MPLABXProjects\Practica2.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+{
+"85
+} 0
+"134
+[v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v TMR0_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 2 ]
+"136
+} 0
+"64 C:\Users\mesas\MPLABXProjects\Practica2.X\mcc_generated_files/spi1.c
+[v _SPI1_Initialize SPI1_Initialize `(v  1 e 1 0 ]
+{
+"77
+} 0
+"81 C:\Users\mesas\MPLABXProjects\Practica2.X\mcc_generated_files/mcc.c
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+{
+"99
+} 0
+"55 C:\Users\mesas\MPLABXProjects\Practica2.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"143
+} 0
+"63 C:\Users\mesas\MPLABXProjects\Practica2.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"79
+} 0
+"52 C:\Users\mesas\MPLABXProjects\Practica2.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+{
+"56
+} 0
+"58 C:\Users\mesas\MPLABXProjects\Practica2.X\mcc_generated_files/fvr.c
+[v _FVR_Initialize FVR_Initialize `(v  1 e 1 0 ]
+{
+"62
+} 0
+"63 C:\Users\mesas\MPLABXProjects\Practica2.X\mcc_generated_files/adcc.c
+[v _ADCC_Initialize ADCC_Initialize `(v  1 e 1 0 ]
+{
+"118
+} 0
+"315
+[v _ADCC_SetADIInterruptHandler ADCC_SetADIInterruptHandler `(v  1 e 1 0 ]
+{
+[v ADCC_SetADIInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 2 ]
+"317
+} 0
+"79 C:\Users\mesas\MPLABXProjects\Practica2.X\mcc_generated_files/spi1.c
+[v _SPI1_Open SPI1_Open `(a  1 e 1 0 ]
+{
+[v SPI1_Open@spi1UniqueConfiguration spi1UniqueConfiguration `E358  1 a 1 wreg ]
+[v SPI1_Open@spi1UniqueConfiguration spi1UniqueConfiguration `E358  1 a 1 wreg ]
+"81
+[v SPI1_Open@spi1UniqueConfiguration spi1UniqueConfiguration `E358  1 a 1 5 ]
+"92
+} 0
+"99
+[v _SPI1_ExchangeByte SPI1_ExchangeByte `(uc  1 e 1 0 ]
+{
+[v SPI1_ExchangeByte@data data `uc  1 a 1 wreg ]
+[v SPI1_ExchangeByte@data data `uc  1 a 1 wreg ]
+"101
+[v SPI1_ExchangeByte@data data `uc  1 a 1 2 ]
+"105
+} 0
+"58 C:\Users\mesas\MPLABXProjects\Practica2.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
+{
+"73
+} 0
+"121 C:\Users\mesas\MPLABXProjects\Practica2.X\mcc_generated_files/tmr0.c
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+{
+"131
+} 0
+"138
+[v _TMR0_DefaultInterruptHandler TMR0_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"141
+} 0
+"306 C:\Users\mesas\MPLABXProjects\Practica2.X\mcc_generated_files/adcc.c
+[v _ADCC_ISR ADCC_ISR `(v  1 e 1 0 ]
+{
+"313
+} 0
+"319
+[v _ADCC_DefaultInterruptHandler ADCC_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"322
+} 0
